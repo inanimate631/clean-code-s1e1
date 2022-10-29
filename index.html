@@ -8,21 +8,21 @@
 </head>
 
 <body class="page">
-    <div class="header">
-        <img src="./eisenhower-matrix.jpg" class="hader__img">
+    <header class="header">
+        <img src="./eisenhower-matrix.jpg" alt="header-img" class="hader__img">
         <a class="header__link" href="https://goal-life.com/page/method/matrix-eisenhower">
             Want more details?
         </a>
-    </div>
-    <div class="main">
-        <p class="main__section">
-            <label for="new-task" class="main__title">Add Item</label>
-        <div class="main__section_item">
-            <input id="new-task" class="task" type="text">
-            <button class="main-btn">Add</button>
-        </div>
-        </p>
-        <h3 class="main__title">Todo</h3>
+    </header>
+    <main class="main">
+        <h1 class="main__title">Add Item</h1>
+        <ul class="main__section">
+            <li class="main__section_item">
+                <input id="new-task" class="task">
+                <button class="main-btn">Add</button>
+            </li>
+        </ul>
+        <h2 class="main__title">Todo</h2>
         <ul class="main__section">
             <li class="main__section_item">
                 <input type="checkbox" class="item__checkbox">
@@ -43,10 +43,10 @@
                 </button>
             </li>
         </ul>
-        <h3 class="main__title">Completed</h3>
+        <h2 class="main__title">Completed</h2>
         <ul class="main__section" id="completed-tasks">
             <li class="main__section_item">
-                <input type="checkbox"  class="item__checkbox" checked>
+                <input type="checkbox" class="item__checkbox" checked>
                 <label class="section__label section__completed-tasks task">See the Doctor</label>
                 <input type="text" class="task-change">
                 <button class="edit">Edit</button>
@@ -55,7 +55,7 @@
                 </button>
             </li>
         </ul>
-    </div>
+    </main>
     <script src="app.js"></script>
 </body>
 
